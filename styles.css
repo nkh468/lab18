@@ -1,0 +1,28 @@
+footer {
+    padding: 160px 65px;
+    position: relative;
+}
+footer a {
+    margin-left: 10px;
+}
+
+.a1::before {
+    position: absolute;
+    content: "\002e";
+    color: black;
+    left: 278px;
+    top: 157px;
+}
+
+.a2::before {
+    position: absolute;
+    content: "\002e";
+    color: black;
+    left: 344px;
+    top: 157px;
+}
+
+footer a:nth-child(3) {
+    position: absolute;
+    right: 65px;
+}
